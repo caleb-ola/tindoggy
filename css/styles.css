@@ -1,0 +1,161 @@
+body{
+	font-family: montserrat, serif;
+}
+#title{
+	background-color: #ff4c68;
+	color: #fff;
+}
+h1{
+	font-family: Montserrat, serif;
+	font-size:3.5rem;
+	line-height: 1.5;
+	font-weight: bold;
+}
+h2{
+	font-family: Montserrat, serif;
+	font-weight: bold;
+	line-height: 1.5;
+	font-size:3rem;
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+
+
+/*Navigation Bar*/
+
+.navbar{
+	padding:0 0 4.5rem;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 2.0rem;
+}
+.nav-item{
+	padding:0 18px;
+}
+.nav-link{
+
+}
+
+/*Buttons*/
+
+.download-button{
+	margin:6% 3% 6% 0;
+}
+
+/*image on header section*/
+
+.title-image{
+	width:60%;
+	transform:rotate(25deg);
+	position: absolute;
+	right:25%;
+
+}
+
+.section2-details{
+	font-family: montserrat;
+	font-weight: bold;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+}
+.section2-story{
+	color:#8f8f8f;
+	font-size: 0.9rem;
+}
+#features{
+	text-align: center;
+	padding-top:4rem;
+	background-color: white;
+	position: relative;
+	
+	width: 100%;
+	height:auto;
+	
+}
+
+.iconset1:hover{
+	color:#ff4c68;
+}
+
+/* testimonial section */
+#testimonials{
+	
+	text-align: center;
+	background-color: #ff4c68;
+	color: #fff;
+}
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin:20px;
+}
+
+#press{
+	background-color: #ff4c68;
+	padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo{
+	width:15%;
+	margin:20px 20px 50px ;
+	
+}
+
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+#pricing{
+	padding:150px;
+	text-align: center;
+}
+.pricing-col{
+	
+	padding:3% 2%;
+}
+
+@media (max-width: 1001px){
+
+	.title-image{
+	width:60%;
+	transform:rotate(0deg);
+	position: static;
+
+}
+
+#title{
+	text-align: center;
+}
+}
+
+
+/*footer*/
+
+#cta{
+	background-color:#ff4668;
+	padding: 30px 5px 70px;
+	text-align: center;
+	padding: 7% 15% ;
+}
+.cta-head{
+	font-weight: bold;
+	font-family: montserrat, serif;
+	color:#fff;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+#footer{
+	background-color: #fff;
+	padding: 7% 15% ;
+	text-align: center;
+	color:gray;
+}
+.footer-icons{
+	width: 2.8%;
+	margin: 10px 5px 10px;
+}
